@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "readfox",
+  "version": "0.0.1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "readf0x test mod",
+  "description": "nuttin' much",
   "authors": [
-    "Me!"
+    "readf0x"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://readf0x.github.io",
+    "sources": "a string"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "CC-BY-SA",
+  "icon": "assets/readfox/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.readf0x.Test"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
